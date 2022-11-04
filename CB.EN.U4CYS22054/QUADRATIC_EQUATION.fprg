@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22054"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 11:16:18 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzA5OjM3OjEzIEFNOzMwNjQ="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzExOjE2OjE4IEFNOzQ7MzE3MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="THIS PROGRAM TO FIND THE QUADRIC EQUATION'S ROOT"/>
+            <declare name="A" type="Real" array="False" size=""/>
+            <declare name="B" type="Real" array="False" size=""/>
+            <declare name="C" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the coefficient of x^2 =A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Enter the coefficient of x^2=B&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Enter the coefficient of x^2=C&quot;" newline="True"/>
+            <input variable="C"/>
+            <declare name="ALPHA" type="Real" array="False" size=""/>
+            <assign variable="ALPHA" expression="(-B+(B^2-4*A*C)^(1/2))/(2*A)"/>
+            <comment text="ALPHA IS ROOT 1"/>
+            <declare name="BETA" type="Real" array="False" size=""/>
+            <assign variable="BETA" expression="(-B-(B^2-4*A*C)^(1/2))/(2*A)"/>
+            <comment text="BETA IS ROOT 2"/>
+            <output expression="&quot;ROOT 1 IS&quot;&amp;ALPHA" newline="True"/>
+            <output expression="&quot;ROOT 2 IS &quot; &amp;BETA" newline="True"/>
+            <comment text="ROOTS ARE SHOWN TO YOU&#13;&#10;"/>
+        </body>
+    </function>
+</flowgorithm>

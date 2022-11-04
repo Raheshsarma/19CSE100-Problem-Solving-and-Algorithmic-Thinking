@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22054"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 11:17:07 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzEwOjA1OjEzIEFNOzMwNTE="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzExOjE3OjA3IEFNOzQ7MzE2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="THIS PROGRAM FOR SWAPPING NUMBERS WITHOUT USING NEW VARIABLE&#13;&#10;"/>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER THE INTEGER = A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;ENTER THE INTEGER = B&quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;A=&quot;&amp;A&amp;&quot; AND B=&quot;&amp;B" newline="True"/>
+            <comment text="SWAPPING&#13;&#10;"/>
+            <assign variable="A" expression="A*B"/>
+            <assign variable="B" expression="A/B"/>
+            <assign variable="A" expression="A/B"/>
+            <comment text="INSTEAD OF USING ADDITION AND SUBRACTION YOU CAN USE MULTIPULICATION AND DIVISION"/>
+            <output expression="&quot;AFTER SWAPPING A=&quot;&amp;A&amp;&quot; B=&quot;&amp;B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

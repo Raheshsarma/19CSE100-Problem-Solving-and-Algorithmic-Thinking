@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22054"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 11:15:36 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzEwOjIyOjQ0IEFNOzMwNTQ="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzExOjE1OjM2IEFNOzQ7MzE2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="THIS PROGRAM TO FIND REMAINDER WITHOUT USING MOD OPERATOR"/>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <comment text="YOU HAVE TO USE INTEGER BECAUSE IF YOU USE REAL THAN REMAINDER COMES WITH DECIMALS"/>
+            <output expression="&quot; ENTER THE INTERGER=A&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;ENTER THE INTEGER =B&quot;" newline="True"/>
+            <input variable="B"/>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <assign variable="C" expression="A/B"/>
+            <output expression="&quot;THE REMAINDER IS &quot; &amp; A-C*B" newline="True"/>
+            <comment text="THE REMAINDER IS SHOWN ABOVE"/>
+        </body>
+    </function>
+</flowgorithm>

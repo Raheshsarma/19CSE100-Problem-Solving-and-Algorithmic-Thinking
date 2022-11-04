@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="CB.EN.U4CYS22054"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-11-04 11:13:39 AM"/>
+        <attribute name="created" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzA5OjA3OjE2IEFNOzMwNjQ="/>
+        <attribute name="edited" value="Q0IuRU4uVTRDWVMyMjA1NDsyMDIyMjNNQVlDMDA5MTsyMDIyLTExLTA0OzExOjEzOjM5IEFNOzExOzMyMTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="this program to convert the celsius to temperature"/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <output expression="&quot;enter temperatue in celsius&quot;" newline="True"/>
+            <input variable="c"/>
+            <declare name="f" type="Integer" array="False" size=""/>
+            <assign variable="f" expression="9/5*c+32"/>
+            <comment text="THIS IS THE EQUATION TO CONVERT CELSIUS TO FAHRENEHIT"/>
+            <output expression="&quot;the temperature in fahrenehit&quot;&amp; f" newline="True"/>
+            <comment text="CELSIUS IS CONVERTED INTO FAHRENEHIT"/>
+        </body>
+    </function>
+</flowgorithm>
